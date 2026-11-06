@@ -1,0 +1,16 @@
+{
+    "project": "$HOME/projects/clang/lei",
+    "file": "False",
+    "name": "lei",
+    "build": {
+        "releases": "
+            cmake -G Ninja -b build ...
+            ...
+            ...
+        ","debug": "..."
+    },
+    "run": {
+        "releases": "...",
+        "debug": ".."
+    }
+}

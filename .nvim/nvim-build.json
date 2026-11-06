@@ -1,0 +1,13 @@
+{
+    "project": "$HOME/projects/clang/lei",
+    "file": "True",
+    "name": "lei",
+    "build": {
+        "releases": "build-releases",
+        "debug": "build-debug"
+    },
+    "run": {
+        "releases": "run-releases",
+        "debug": "run-debug"
+    }
+}
